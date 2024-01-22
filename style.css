@@ -1,0 +1,143 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --white-white: #f1f2f4;
+  --gray: #3d3d3d;
+  --blue-black: #0c151d;
+  --white-blue: #a3abb2;
+  --yelllow: #ffe071;
+  --light-blue: #171f26;
+  --sm: 14px;
+  --md: 22px;
+  --lg: 46px;
+}
+body {
+  background-color: var(--blue-black);
+  font-family: 'Poppins';
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;     
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+   
+}
+.card-icon {
+  width: 215px;
+  height: 215px;
+  flex-shrink: 0; 
+   
+}
+.card-icon figure img {
+  width: 192px;
+  height: 192px;
+  border-radius: 192px;
+  flex-shrink: 0;
+   
+}
+.icon-text {
+   
+  margin: 10px 10px 10px 10px;
+  padding: auto;
+}
+.title{
+    color: var(--white-white);
+    font-family: 'Poppins';
+    font-size: var(--lg);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text{
+    color: var(--white-blue);
+    font-family: 'Poppins';
+    font-size:var(--md);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.social-icon {
+  
+  display:inline-flex; 
+  align-items: flex-start;
+  gap: 26px;
+
+}
+.logo{
+    width: 36px;
+    height: 36px;
+}
+.card-information {
+  background-color: var(--yelllow);
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ flex-shrink: 0;
+}
+.info{
+    background-color: var(--white-white);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+}
+.info p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: var(--md);
+}
+.about-me {
+  background-color: var(--white-white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 38px;
+  flex-shrink: 0;
+  
+}
+.download{
+    background-color: var(--yelllow);
+   
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+     
+}
+.contact{
+    background-color: var(--yelllow);
+   
+    width: 290px;
+    height: 80px;
+   
+}
+.works{
+    background-color: var(--white-white);
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+.portafolio{
+    width: 349.595px;
+    height: 80px;
+    border-radius: 10px;
+    background:var(--blue-black);
+}
+.skills{
+    width: 382.37px;
+    color: var(--white-blue);
+    font-family: 'Poppins';
+    font-size: var(--md);
+    font-style: normal;
+    line-height: normal;
+ 
+}
